@@ -1,0 +1,23 @@
+//
+//  LinkedinCD+CoreDataProperties.m
+//  SocialApp
+//
+//  Created by Pai, Ankeet on 30/05/16.
+//  Copyright © 2016 KPMG. All rights reserved.
+//
+//  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
+//  to delete and recreate this implementation file for your updated model.
+//
+
+#import "LinkedinCD+CoreDataProperties.h"
+
+@implementation LinkedinCD (CoreDataProperties)
+
+@dynamic descriptionStr;
+@dynamic eyebrowUrl;
+@dynamic thumbnailUrl;
+@dynamic timestamp;
+@dynamic title;
+@dynamic idStr;
+
+@end
